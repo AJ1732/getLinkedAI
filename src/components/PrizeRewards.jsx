@@ -3,7 +3,7 @@ import back from '../files/images/prizeBg.png'
 
 const PrizeRewards = () => {
   return (
-    <div className='h-fit py-20 text-center px-10 border-b | flex flex-col justify-start items-center gap-10'>
+    <div className='h-fit py-20 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10'>
       {/* <img className='z-0 absolute' src={back} alt="" /> */}
       <div className='flex flex-col justify-center items-center gap-4 tracking-wide'>
         <h2 className='w-28 text-xl font-clashDisplay font-bold'>Prizes and <span className='text-text-purple'>Rewards</span></h2>

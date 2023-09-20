@@ -2,8 +2,8 @@ import React from 'react'
 
 const Overview = () => {
   return (
-    <div className='bg-bg-two-purple h-fit py-8 px-10 border-b | flex flex-col justify-start items-center'>
-      <div id='intro' className='flex flex-col gap-14 justify-start items-center | border-b pb-20 '>
+    <div className='bg-bg-two-purple h-fit py-8 px-10 border-b border-divider | flex flex-col justify-start items-center'>
+      <div id='intro' className='flex flex-col gap-14 justify-start items-center | border-b border-divider pb-20 '>
         <div className='relative'>
           <img className='w-64 h-64' src="https://s3-alpha-sig.figma.com/img/a6de/6834/5d68dd387b9cafbc76f7ece53058ac96?Expires=1696204800&Signature=OGUzvSLvVUarj~bJKUTmHggm7M~WvjQR61kFl9635ojAtMUY0V1E1Fb3MMF6k8OKG~RXKdRpxhUnAemUPi7NGCICO7KFxsO3nP6kasCziDL4n7PLxiyYDZasP~jTlf2rMZiau9NwZBJln8UXaNqNVWI2KDJchhA4sVmiXDCJzL8wT2-eZCY9iReTMkOxyLWMb5kl0im2TlmwzLgQdc-Xm1AIKcMnYYyepRtRKnFC0X5i1MKx5umijzDiGk490eQbzFYcfUKCqJjqMur-f526nBEz5~1~vUVbxFn2KwupRuSMdMmV9Yy1b-nDEZJeRLQlCVta-NyIAejuvaXa5HOR~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
           <div className='w-14 font-mont font-bold | flex flex-col gap-0 justify-center items-center ml-1 mt-2 | absolute top-28 left-24'>
@@ -22,7 +22,7 @@ const Overview = () => {
         </div>
       </div>
 
-      <div id='rules and guidelines' className='flex flex-col justify-center items-center | border-b pb-11'>
+      <div id='rules and guidelines' className='flex flex-col justify-center items-center | border-b border-divider pb-11'>
         <img className='pt-4' src="https://s3-alpha-sig.figma.com/img/0542/1f67/435623be1bd279e42923f1c7be3982a0?Expires=1696204800&Signature=UC20fA-IsnPyj1ONZzMTO12upRS9iERE6AnfQNMpCO9odqQMWo382jZDNcBixNZjjbjdVSSIPhqm5r6YANC8t7b3f2mg0~TQ2isXThAbIhVC3cuqPwcQD95Cr2o0KZWo~bTAf4b~BTBwjFp1PIK5ZuXg0TU0rCH~V~ts0P2-7I-1EyY9qV8x87iLyPFmAuxeyf-zc7ZyrU6DZ3WHdpXLBt7tgBPCVO7zJj2dZ80nKbriem1GJb5tVCx6Cm8xA6DW0Ux~Y~0rGiEPeNefWx~Iax4pnPPMrUh4giB2jRCd9kJDuw9XA2GIhZt-FPAlJPjAbFuGR1~pF5aRK0aM3lygnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
 
         <div className='tracking-wider text-center flex flex-col gap-4'>

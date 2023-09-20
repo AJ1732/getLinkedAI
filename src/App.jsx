@@ -10,6 +10,7 @@ import HomePage from './components/HomePage'
 import FAQs from './components/FAQs'
 import PrizeRewards from './components/PrizeRewards'
 import PartnersSponsors from './components/PartnersSponsors'
+import Privacy from './components/Privacy'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Timeline />
         <PrizeRewards />
         <PartnersSponsors />
+        <Privacy />
       </Router>
     </div>
   )

@@ -7,7 +7,8 @@ export default {
   theme: {
     colors: {
       'white': '#ffffff',
-      'blue': '#1fb6ff',
+      'red': '#f00',
+      'blue': '#00A3FF',
       'purple': '#7e5bef',
       'text-purple': '#D434FE',
       'lg-from-purple': '#903AFF',
@@ -21,9 +22,14 @@ export default {
       'first': '#903AFF',
       'second-place': 'rgba(212, 52, 254, 0.12)',
       'first-place': 'rgba(144, 58, 255, 0.12)',
+      'sponsor': 'rgba(255, 255, 255, 0.01)',
+      'divider': 'rgba(255, 255, 255, 0.18)',
     },
     fontFamily: {
       clashDisplay: ['ClashDisplay-Variable', 'sans-serif'],
+      typoHoop: ['Typo Hoop Demo', 'sans-serif'],
+      voces: ['Voces', 'sans-serif'],                                                
+      volkhov: ['Volkhov', 'sans-serif'],                                                                                                
       mont: ['Montserrat', 'sans-serif'],
       inter: ['Inter', 'sans-serif'],
       unica: ['Unica One', 'cursive'],
@@ -35,6 +41,7 @@ export default {
       },
       borderRadius: {
         '4xl': '2rem',
+        'm': '0.3125rem',
       },
       width: {
         38: "9.5rem",
@@ -45,6 +52,7 @@ export default {
         smm: "24.375rem",
       },
       fontSize: {
+        ssl: "0.25rem",
         ssxl: "0.8125rem",
         sxxl: "0.875rem",
         sxl: "0.9375rem",
