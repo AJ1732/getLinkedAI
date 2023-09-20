@@ -18,6 +18,9 @@ export default {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'first': '#903AFF',
+      'second-place': 'rgba(212, 52, 254, 0.12)',
+      'first-place': 'rgba(144, 58, 255, 0.12)',
     },
     fontFamily: {
       clashDisplay: ['ClashDisplay-Variable', 'sans-serif'],

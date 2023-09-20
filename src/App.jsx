@@ -8,6 +8,8 @@ import Overview from './components/Overview'
 import Timeline from './components/Timeline'
 import HomePage from './components/HomePage'
 import FAQs from './components/FAQs'
+import PrizeRewards from './components/PrizeRewards'
+import PartnersSponsors from './components/PartnersSponsors'
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <Overview />
         <FAQs />
         <Timeline />
+        <PrizeRewards />
+        <PartnersSponsors />
       </Router>
     </div>
   )
