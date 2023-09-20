@@ -17,13 +17,14 @@ export default {
       'bg-purple': '#150E28;',
       'bg-two-purple': '#140D27;',
       'gray-dark': '#273444',
-      'gray': '#8492a6',
+      'gray': 'rgba(255, 255, 255, 0.75)',
       'gray-light': '#d3dce6',
       'first': '#903AFF',
       'second-place': 'rgba(212, 52, 254, 0.12)',
       'first-place': 'rgba(144, 58, 255, 0.12)',
       'sponsor': 'rgba(255, 255, 255, 0.01)',
       'divider': 'rgba(255, 255, 255, 0.18)',
+      'privacy-div': 'rgba(217, 217, 217, 0.03)',
     },
     fontFamily: {
       clashDisplay: ['ClashDisplay-Variable', 'sans-serif'],
@@ -46,6 +47,8 @@ export default {
       width: {
         38: "9.5rem",
         66: "16rem",
+        67: "16.375rem",
+        73: "18.4375rem",
         99: "24.375rem",
       },
       maxWidth: {

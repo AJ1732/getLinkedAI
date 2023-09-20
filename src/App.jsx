@@ -11,11 +11,12 @@ import FAQs from './components/FAQs'
 import PrizeRewards from './components/PrizeRewards'
 import PartnersSponsors from './components/PartnersSponsors'
 import Privacy from './components/Privacy'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <div className='bg-bg-purple text-white'>
+    <div className='bg-bg-purple text-white font-mont'>
       <Router>
         <Routes>
           <Route path='/' element={<Layout />}>
@@ -29,6 +30,7 @@ function App() {
         <PrizeRewards />
         <PartnersSponsors />
         <Privacy />
+        <Footer />
       </Router>
     </div>
   )

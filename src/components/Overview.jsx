@@ -22,6 +22,7 @@ const Overview = () => {
         </div>
       </div>
 
+      {/* RULES AND GUIDELINES */}
       <div id='rules and guidelines' className='flex flex-col justify-center items-center | border-b border-divider pb-11'>
         <img className='pt-4' src="https://s3-alpha-sig.figma.com/img/0542/1f67/435623be1bd279e42923f1c7be3982a0?Expires=1696204800&Signature=UC20fA-IsnPyj1ONZzMTO12upRS9iERE6AnfQNMpCO9odqQMWo382jZDNcBixNZjjbjdVSSIPhqm5r6YANC8t7b3f2mg0~TQ2isXThAbIhVC3cuqPwcQD95Cr2o0KZWo~bTAf4b~BTBwjFp1PIK5ZuXg0TU0rCH~V~ts0P2-7I-1EyY9qV8x87iLyPFmAuxeyf-zc7ZyrU6DZ3WHdpXLBt7tgBPCVO7zJj2dZ80nKbriem1GJb5tVCx6Cm8xA6DW0Ux~Y~0rGiEPeNefWx~Iax4pnPPMrUh4giB2jRCd9kJDuw9XA2GIhZt-FPAlJPjAbFuGR1~pF5aRK0aM3lygnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
 
@@ -35,6 +36,7 @@ const Overview = () => {
         </div>
       </div>
 
+      {/* KEY CRITERIA */}
       <div id='key criteria' className='flex flex-col justify-center items-center text-center | pt-20'>
         <img src="https://s3-alpha-sig.figma.com/img/1d4e/0b71/a45a506fa0896ea1c741a01208c3ac2b?Expires=1696204800&Signature=jNUG~6E6-C9yGqR-4Flv1HyjhbDTfLbhe-LMtLAOktnrjxXtdkKdFB4CYRzYIixNEe3UtB0WDXW8GJhX2yweOyOghDzIcKM4FevDHrWl7i4n8Asn08xn1Qp-tMlHIWKU17tlnB7iZIz3QLqfxOQeUu5TP5N-E9l9RM9BupuCOP~V3YdLESr301zpzaiL3MXUZI2vXAMIhl7HwWoK9wOFSR3T3u5vYba~PUASrji5VFA1MndRPjDojVZ3iDXY5rmtICktX-kbQqf3togkSxEEFC-o0sloW4jZ8duNf-w6k6FlYA~sH3KDqSjua4HFO-CnC8pWr6eUnLMiCW2w5OjjwQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
 
@@ -63,7 +65,7 @@ const Overview = () => {
             </p>
           </div>
 
-          <button className='w-24 h-10 rounded my-6 mb-2 | text-xs font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Read More</button>
+          <button className='w-24 h-10 rounded my-6 mb-2 | text-xs font-medium tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Read More</button>
         </div>
       </div>
     </div>
