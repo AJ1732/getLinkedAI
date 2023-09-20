@@ -6,20 +6,24 @@ export default {
   ],
   theme: {
     colors: {
+      'white': '#ffffff',
       'blue': '#1fb6ff',
       'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
+      'text-purple': '#D434FE',
+      'lg-from-purple': '#903AFF',
+      'lg-via-purple': '#FF26B9',
+      'lg-to-purple': '#FE34B9',
+      'bg-purple': '#150E28;',
+      'bg-two-purple': '#140D27;',
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
     },
     fontFamily: {
       clashDisplay: ['ClashDisplay-Variable', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-      sans: ['Graphik', 'sans-serif'],
+      mont: ['Montserrat', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
+      unica: ['Unica One', 'cursive'],
     },
     extend: {
       spacing: {
@@ -28,7 +32,21 @@ export default {
       },
       borderRadius: {
         '4xl': '2rem',
-      }
+      },
+      width: {
+        38: "9.5rem",
+        66: "16rem",
+        99: "24.375rem",
+      },
+      maxWidth: {
+        smm: "24.375rem",
+      },
+      fontSize: {
+        ssxl: "0.8125rem",
+        sxxl: "0.875rem",
+        sxl: "0.9375rem",
+        txl: "2rem",
+      },
     },
   },
   plugins: [],
