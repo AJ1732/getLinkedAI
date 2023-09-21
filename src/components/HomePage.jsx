@@ -5,7 +5,7 @@ import underline from '../files/vectors/curvedUnderline.svg'
 
 const HomePage = () => {
   return (
-    <div className='h-fit px-10 | text-center | flex flex-col justify-center items-center gap-10'>
+    <div className='h-fit px-10 pt-8 | text-center | flex flex-col justify-center items-center gap-10'>
       <div className='w-80 relative'>
         <h2 className='font-serif font-bold text-base italic tracking-normal'>Igniting a Revolution in HR Innovation</h2>
         <ReactSVG src={underline} className='absolute right-4' />

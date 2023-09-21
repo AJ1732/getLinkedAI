@@ -3,15 +3,11 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 // import { HashLink } from 'react-router-hash-link'
 import Layout from './components/Layout'
-import Navbar from './components/Navbar'
-import Overview from './components/Overview'
-import Timeline from './components/Timeline'
-import HomePage from './components/HomePage'
-import FAQs from './components/FAQs'
-import PrizeRewards from './components/PrizeRewards'
-import PartnersSponsors from './components/PartnersSponsors'
-import Privacy from './components/Privacy'
-import Footer from './components/Footer'
+import Header from './components/Header'
+// import Navbar from './components/Navbar'
+import Contact from './components/Contact'
+import Register from './components/Register'
+import LandingPage from './components/LandingPage'
 
 function App() {
 
@@ -20,17 +16,11 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Layout />}>
-            <Route index element={<Navbar />} />
+            <Route index element={<LandingPage />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='register' element={<Register />} />
           </Route>
         </Routes>
-        <HomePage />
-        <Overview />
-        <FAQs />
-        <Timeline />
-        <PrizeRewards />
-        <PartnersSponsors />
-        <Privacy />
-        <Footer />
       </Router>
     </div>
   )

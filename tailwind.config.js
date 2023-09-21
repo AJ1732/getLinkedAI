@@ -40,14 +40,19 @@ export default {
         '8xl': '96rem',
         '9xl': '128rem',
       },
+      padding: {
+        15: '3.75rem',
+      },
       borderRadius: {
         '4xl': '2rem',
         'm': '0.3125rem',
       },
       width: {
         38: "9.5rem",
+        'x': "0.125rem",
         66: "16rem",
         67: "16.375rem",
+        68: "17rem",
         73: "18.4375rem",
         99: "24.375rem",
       },
@@ -60,6 +65,9 @@ export default {
         sxxl: "0.875rem",
         sxl: "0.9375rem",
         txl: "2rem",
+      },
+      zIndex: {
+        "neg": -1,
       },
     },
   },

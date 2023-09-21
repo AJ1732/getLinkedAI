@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQs = () => {
   return (
-    <div className='h-fit pt-14 pb-10 px-10 text-center | flex flex-col justify-start items-center gap-20 border-b border-divider'>
+    <div id='FAQs' className='h-fit pt-14 pb-10 px-10 text-center | flex flex-col justify-start items-center gap-20 border-b border-divider'>
       <div className='flex flex-col justify-start items-center gap-10'>
         <div className='flex flex-col justify-start items-center gap-2'>
           <h2 className='w-44 font-clashDisplay font-bold text-xl'>Frequently Ask <span className='text-text-purple'>Question</span></h2>
