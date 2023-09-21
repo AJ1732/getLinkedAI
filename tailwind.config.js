@@ -25,6 +25,7 @@ export default {
       'sponsor': 'rgba(255, 255, 255, 0.01)',
       'divider': 'rgba(255, 255, 255, 0.18)',
       'privacy-div': 'rgba(217, 217, 217, 0.03)',
+      'transparent': 'transparent',
     },
     fontFamily: {
       clashDisplay: ['ClashDisplay-Variable', 'sans-serif'],
@@ -48,17 +49,25 @@ export default {
         'm': '0.3125rem',
       },
       width: {
-        38: "9.5rem",
         'x': "0.125rem",
+        38: "9.5rem",
+        54: "13.4693rem",
         66: "16rem",
         67: "16.375rem",
         68: "17rem",
         73: "18.4375rem",
+        81: "21.625rem",
         99: "24.375rem",
+        103: "27.25rem",
+        109: "35.5rem",
+      },
+      height: {
+        13: '3.23rem',
       },
       maxWidth: {
         smm: "24.375rem",
         200: "67.875rem",
+        300: "94.5rem",
       },
       fontSize: {
         ssl: "0.25rem",
@@ -66,6 +75,7 @@ export default {
         sxxl: "0.875rem",
         sxl: "0.9375rem",
         txl: "2rem",
+        '5.5xl': "5rem",
       },
       zIndex: {
         "neg": -1,

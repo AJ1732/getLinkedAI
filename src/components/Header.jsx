@@ -32,7 +32,7 @@ export default function Example() {
     <div className=''>
     
     
-    <Disclosure as="nav" className="border-b border-divider relative">
+    <Disclosure as="nav" className="border-b border-divider relative sm:pt-10 sm:pb-4">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -41,7 +41,7 @@ export default function Example() {
               {
                 open?
                 '':
-                <h1 className='font-clashDisplay absolute left-12 font-sxl font-bold'>get<span className='text-text-purple'>linked</span></h1>
+                <h1 className='font-clashDisplay absolute left-12 font-sxl font-bold | sm:text-4xl'>get<span className='text-text-purple'>linked</span></h1>
               }
 
               <div className="relative flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
