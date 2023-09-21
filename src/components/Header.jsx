@@ -28,18 +28,23 @@ export default function Example() {
   ));
 
   return (
-    <Disclosure as="nav" className="border-b border-divider">
+
+    <div className=''>
+    
+    
+    <Disclosure as="nav" className="border-b border-divider relative">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
+              {/* Nav Link */}
               {
                 open?
                 '':
                 <h1 className='font-clashDisplay absolute left-12 font-sxl font-bold'>get<span className='text-text-purple'>linked</span></h1>
               }
 
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
+              <div className="relative flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
                 {/* <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
@@ -154,7 +159,7 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden w-full h-screen flex flex-col absolute bg-bg-purple z-10">
             <div className="space-y-1 px-12 pb-3 pt-2">
               {navigation.map((item) => (
                 <Link
@@ -171,14 +176,12 @@ export default function Example() {
                   {item.name}
                 </Link>
               ))}
-
-              <Link to={`register`} className='ml-3 mt-4 py-2 px-4 rounded | text-sxxl text-center font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>
-              
-
             </div>
+            <Link to={`register`} className='w-40 ml-16 mt-6 mb-20 py-5 px-4 rounded | text-sxxl text-center font-medium tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>
           </Disclosure.Panel>
         </>
       )}
     </Disclosure>
+    </div>
   )
 }

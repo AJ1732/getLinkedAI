@@ -58,6 +58,7 @@ export default {
       },
       maxWidth: {
         smm: "24.375rem",
+        200: "67.875rem",
       },
       fontSize: {
         ssl: "0.25rem",

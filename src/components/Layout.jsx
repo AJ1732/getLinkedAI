@@ -7,7 +7,7 @@ import Header from './Header'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='m-auto sm:max-w-200'>
       <Header />
       <Outlet />
     </div>
