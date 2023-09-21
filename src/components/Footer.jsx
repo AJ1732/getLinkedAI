@@ -8,13 +8,13 @@ import location from '../files/images/location.svg'
 
 const Footer = () => {
   return (
-    <div className='h-fit text-left py-14 px-15 | flex flex-col gap-10'>
+    <div className='h-fit text-left py-14 px-15 | flex flex-col gap-10 | sm:px-0'>
       {/* Intro */}
-      <div className='flex flex-col gap-8'>
+      <div className='flex flex-col gap-8 | sm:flex-row sm:w-full sm:justify-between sm:items-start'>
         <div className='flex flex-col justify-between items-start gap-10 '>
           <div>
             <h2 className='text-xl font-clashDisplay tracking-wide font-bold'>get<span className='text-text-purple'>linked</span></h2>
-            <p className='w-68 mt-3 text-xs !leading-5'>Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology</p>
+            <p className='w-68 mt-3 text-xs !leading-5 | sm:w-103'>Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology</p>
           </div>
           <div className='text-xs flex gap-2'>
             <p>Terms of Use</p>
