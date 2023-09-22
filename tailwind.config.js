@@ -25,6 +25,7 @@ export default {
       'sponsor': 'rgba(255, 255, 255, 0.01)',
       'divider': 'rgba(255, 255, 255, 0.18)',
       'privacy-div': 'rgba(217, 217, 217, 0.03)',
+      'input': 'rgba(255, 255, 255, 0.03)',
       'footer': '#100B20',
       'transparent': 'transparent',
     },
@@ -79,7 +80,7 @@ export default {
         80: '20rem',
         90: '35rem',
         96: '38rem',
-        120: '48rem',
+        120: '50rem',
       },
       maxWidth: {
         smm: "24.375rem",
