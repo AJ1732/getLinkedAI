@@ -25,6 +25,7 @@ export default {
       'sponsor': 'rgba(255, 255, 255, 0.01)',
       'divider': 'rgba(255, 255, 255, 0.18)',
       'privacy-div': 'rgba(217, 217, 217, 0.03)',
+      'footer': '#100B20',
       'transparent': 'transparent',
     },
     fontFamily: {
@@ -44,6 +45,10 @@ export default {
       padding: {
         15: '3.75rem',
       },
+      margin: {
+        30: '7.5rem',
+        'left': '34rem',
+      },
       borderRadius: {
         '4xl': '2rem',
         'm': '0.3125rem',
@@ -59,10 +64,19 @@ export default {
         81: "21.625rem",
         99: "24.375rem",
         103: "27.25rem",
+        'idea': "34.5rem",
+        106: "33.125rem",
         109: "35.5rem",
+        110: "35.5625rem",
+        140: "58rem",
+        150: "72.5rem",
       },
       height: {
         13: '3.23rem',
+        'idea': "25rem",
+        80: '20rem',
+        90: '35rem',
+        96: '38rem',
       },
       maxWidth: {
         smm: "24.375rem",
@@ -71,11 +85,16 @@ export default {
       },
       fontSize: {
         ssl: "0.25rem",
+        xsl: "0.6875rem",
         ssxl: "0.8125rem",
         sxxl: "0.875rem",
         sxl: "0.9375rem",
         txl: "2rem",
+        '2.5xl': "2.5rem",
         '5.5xl': "5rem",
+      },
+      aspectRatio: {
+        secure: '75/80'
       },
       zIndex: {
         "neg": -1,

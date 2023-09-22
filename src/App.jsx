@@ -12,7 +12,7 @@ import LandingPage from './components/LandingPage'
 function App() {
 
   return (
-    <div className='bg-bg-purple text-white font-mont'>
+    <div className='bg-bg-purple text-white font-mont overflow-hidden'>
       <Router>
         <Routes>
           <Route path='/' element={<Layout />}>

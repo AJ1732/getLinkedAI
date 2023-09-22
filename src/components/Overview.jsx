@@ -5,10 +5,10 @@ const Overview = () => {
     <div id='overview' className='bg-bg-two-purple h-fit py-8 pb-20 px-10 border-b border-divider | flex flex-col justify-start items-center | sm:px-4'>
       <div id='intro' className='flex flex-col gap-14 justify-start items-center | border-b border-divider pb-20 | sm:flex-row sm:justify-between'>
         <div className='relative sm:pl-32'>
-          <img className='w-64 h-64' src="https://s3-alpha-sig.figma.com/img/a6de/6834/5d68dd387b9cafbc76f7ece53058ac96?Expires=1696204800&Signature=OGUzvSLvVUarj~bJKUTmHggm7M~WvjQR61kFl9635ojAtMUY0V1E1Fb3MMF6k8OKG~RXKdRpxhUnAemUPi7NGCICO7KFxsO3nP6kasCziDL4n7PLxiyYDZasP~jTlf2rMZiau9NwZBJln8UXaNqNVWI2KDJchhA4sVmiXDCJzL8wT2-eZCY9iReTMkOxyLWMb5kl0im2TlmwzLgQdc-Xm1AIKcMnYYyepRtRKnFC0X5i1MKx5umijzDiGk490eQbzFYcfUKCqJjqMur-f526nBEz5~1~vUVbxFn2KwupRuSMdMmV9Yy1b-nDEZJeRLQlCVta-NyIAejuvaXa5HOR~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-          <div className='w-14 font-mont font-bold | flex flex-col gap-0 justify-center items-center ml-1 mt-2 | absolute top-28 left-24 | sm:left-56'>
-            <span className='text-sxxl font-bold'>The Big</span>
-            <span className='text-sxxl font-bold'>Idea!</span>
+          <img className='w-64 h-64 | sm:-ml-24 sm:w-idea sm:h-idea sm:self-left' src="https://s3-alpha-sig.figma.com/img/a6de/6834/5d68dd387b9cafbc76f7ece53058ac96?Expires=1696204800&Signature=OGUzvSLvVUarj~bJKUTmHggm7M~WvjQR61kFl9635ojAtMUY0V1E1Fb3MMF6k8OKG~RXKdRpxhUnAemUPi7NGCICO7KFxsO3nP6kasCziDL4n7PLxiyYDZasP~jTlf2rMZiau9NwZBJln8UXaNqNVWI2KDJchhA4sVmiXDCJzL8wT2-eZCY9iReTMkOxyLWMb5kl0im2TlmwzLgQdc-Xm1AIKcMnYYyepRtRKnFC0X5i1MKx5umijzDiGk490eQbzFYcfUKCqJjqMur-f526nBEz5~1~vUVbxFn2KwupRuSMdMmV9Yy1b-nDEZJeRLQlCVta-NyIAejuvaXa5HOR~w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+          <div className='w-14 text-sxxl font-bold | flex flex-col gap-0 justify-center items-center ml-1 mt-2 | absolute top-28 left-24 | sm:left-56 sm:text-2xl sm:w-28 sm:top-44 sm:left-44 sm:-ml-0.5'>
+            <span>The Big</span>
+            <span>Idea!</span>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ const Overview = () => {
 
       {/* RULES AND GUIDELINES */}
       <div id='rules and guidelines' className='flex flex-col justify-center items-center | border-b border-divider pb-11 | sm:flex-row-reverse'>
-        <img className='pt-4 | sm:w-1/2' src="https://s3-alpha-sig.figma.com/img/0542/1f67/435623be1bd279e42923f1c7be3982a0?Expires=1696204800&Signature=UC20fA-IsnPyj1ONZzMTO12upRS9iERE6AnfQNMpCO9odqQMWo382jZDNcBixNZjjbjdVSSIPhqm5r6YANC8t7b3f2mg0~TQ2isXThAbIhVC3cuqPwcQD95Cr2o0KZWo~bTAf4b~BTBwjFp1PIK5ZuXg0TU0rCH~V~ts0P2-7I-1EyY9qV8x87iLyPFmAuxeyf-zc7ZyrU6DZ3WHdpXLBt7tgBPCVO7zJj2dZ80nKbriem1GJb5tVCx6Cm8xA6DW0Ux~Y~0rGiEPeNefWx~Iax4pnPPMrUh4giB2jRCd9kJDuw9XA2GIhZt-FPAlJPjAbFuGR1~pF5aRK0aM3lygnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <img className='pt-4 | sm:w-1/2 sm:-pl-10' src="https://s3-alpha-sig.figma.com/img/0542/1f67/435623be1bd279e42923f1c7be3982a0?Expires=1696204800&Signature=UC20fA-IsnPyj1ONZzMTO12upRS9iERE6AnfQNMpCO9odqQMWo382jZDNcBixNZjjbjdVSSIPhqm5r6YANC8t7b3f2mg0~TQ2isXThAbIhVC3cuqPwcQD95Cr2o0KZWo~bTAf4b~BTBwjFp1PIK5ZuXg0TU0rCH~V~ts0P2-7I-1EyY9qV8x87iLyPFmAuxeyf-zc7ZyrU6DZ3WHdpXLBt7tgBPCVO7zJj2dZ80nKbriem1GJb5tVCx6Cm8xA6DW0Ux~Y~0rGiEPeNefWx~Iax4pnPPMrUh4giB2jRCd9kJDuw9XA2GIhZt-FPAlJPjAbFuGR1~pF5aRK0aM3lygnw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
 
         <div className='tracking-wider text-center flex flex-col gap-4 | sm:w-1/2 sm:text-left'>
           <div className='font-clashDisplay font-bold text-xl | sm:text-txl'>

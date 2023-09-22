@@ -2,7 +2,7 @@ import React from 'react'
 
 const Timeline = () => {
   return (
-    <div id='timeline' className='h-fit text-center py-20 px-10 flex flex-col justify-start items-center gap-14 | sm:gap-20'>
+    <div id='timeline' className='h-fit text-center py-20 px-10 flex flex-col justify-start items-center gap-14 border-b border-divider | sm:gap-20'>
       <div className='w-72 | flex flex-col justify-start items-center gap-4'>
         <h2 className='font-clashDisplay font-bold text-xl | sm:text-txl'>Timeline</h2>
         <p className='text-sxxl font-medium leading-6 | sm:w-81'>Here is the breakdown of the time we anticipate using for the upcoming event.</p>
