@@ -42,7 +42,7 @@ export default function Example() {
               {
                 open?
                 '':
-                <h1 className='font-clashDisplay absolute left-12 font-sxl font-bold | sm:text-4xl'>get<span className='text-text-purple'>linked</span></h1>
+                <Link to={`.`} className='font-clashDisplay absolute left-12 font-sxl font-bold | sm:text-4xl'>get<span className='text-text-purple'>linked</span></Link>
               }
 
               <div className="relative flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
@@ -56,9 +56,9 @@ export default function Example() {
                 <div className="hidden  sm:ml-6 sm:block">
                   <div className="flex sm:justify-center sm:items-center space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <HashLink
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium'
@@ -66,7 +66,7 @@ export default function Example() {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </HashLink>
                     ))}
 
                     <Link to={`register`} className='w-38 h-10 rounded mx-28 pt-2 | text-sxxl text-center font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>

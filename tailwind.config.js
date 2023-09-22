@@ -56,6 +56,7 @@ export default {
       },
       width: {
         'x': "0.125rem",
+        'walk': "1.65rem",
         38: "9.5rem",
         54: "13.4693rem",
         66: "16rem",
@@ -69,7 +70,8 @@ export default {
         'idea': "34.5rem",
         106: "33.125rem",
         109: "35.5rem",
-        110: "35.5625rem",
+        110: "38.25rem",
+        115: "36.25rem",
         140: "58rem",
         145: "63rem",
         150: "72.5rem",
@@ -80,7 +82,10 @@ export default {
         80: '20rem',
         90: '35rem',
         96: '38rem',
-        120: '50rem',
+        100: '40rem',
+        110: '47rem',
+        120: '55rem',
+        150: '70rem',
       },
       maxWidth: {
         smm: "24.375rem",
@@ -89,6 +94,8 @@ export default {
       },
       fontSize: {
         ssl: "0.25rem",
+        sl: "0.5625rem",
+        sll: "0.625rem",
         xsl: "0.6875rem",
         ssxl: "0.8125rem",
         sxxl: "0.875rem",
@@ -102,6 +109,9 @@ export default {
       },
       zIndex: {
         "neg": -1,
+      },
+      scale: {
+        '-100': '-1',
       },
     },
   },
