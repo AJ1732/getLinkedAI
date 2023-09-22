@@ -69,7 +69,7 @@ export default function Example() {
                       </HashLink>
                     ))}
 
-                    <Link to={`register`} className='w-38 h-10 rounded mx-28 pt-2 | text-sxxl text-center font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>
+                    <Link to={`register`} className=' bg-white:active w-38 h-10 rounded mx-28 pt-2 | text-sxxl text-center font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>
                   </div>
                 </div>
               </div>
