@@ -6,6 +6,7 @@ import menu from '../files/vectors/hamMenu.svg'
 import menuClose from '../files/images/menuClose.svg'
 // import { HashLink } from 'react-router-hash-link'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 
 const navigation = [
@@ -147,8 +148,8 @@ export default function Example() {
               <div className="absolute inset-y-0 right-8 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400">
-                  {/* <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span> */}
+                  <span className="absolute -inset-0.5" />
+                  <span className="sr-only">Open main menu</span>
                   {open ? (
                     <ReactSVG src={menuClose} className="block p-2 border-2 border-lg-from-purple rounded-full" aria-hidden="true" />
                   ) : (
@@ -162,7 +163,7 @@ export default function Example() {
           <Disclosure.Panel className="sm:hidden w-full h-screen flex flex-col absolute bg-bg-purple z-10">
             <div className="space-y-1 px-12 pb-3 pt-2">
               {navigation.map((item) => (
-                <Link
+                <HashLink
                   key={item.name}
                   as="a"
                   to={item.href}
@@ -174,7 +175,7 @@ export default function Example() {
                   aria-current={item.current ? 'page' : undefined}
                 >
                   {item.name}
-                </Link>
+                </HashLink>
               ))}
             </div>
             <Link to={`register`} className='w-40 ml-16 mt-6 mb-20 py-5 px-4 rounded | text-sxxl text-center font-medium tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple'>Register</Link>

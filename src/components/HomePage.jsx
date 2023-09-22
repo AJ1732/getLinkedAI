@@ -6,7 +6,9 @@ import lgUnderline from '../files/vectors/lgCurvedUnderline.svg'
 
 const HomePage = () => {
   return (
-    <div className='h-fit px-10 pt-8 | text-center | flex flex-col justify-center items-center gap-10 | sm:px-0 sm:gap-32 sm:pb-32'>
+    <div className='h-120 relative sm:h-fit px-10 pt-8 | text-center | flex flex-col justify-start items-center gap-10 | sm:px-0 sm:gap-32 sm:pb-32'>
+      <div className='flex flex-col justify-center items-center gap-10'>
+
       <div className='relative w-96 | sm:w-full sm:self-end'>
         <h2 className='font-serif font-bold text-base italic tracking-normal | sm:text-right sm:pr-5  sm:text-4xl'>Igniting a Revolution in HR Innovation</h2>
         <ReactSVG src={underline} className='absolute right-8 | sm:hidden sm:right-10' />
@@ -27,7 +29,7 @@ const HomePage = () => {
               </div>
             </div>
 
-            <p className='text-ssxl font-normal w-66 tracking-wider | sm:w-109 sm:text-xl'>Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+            <p className='text-ssxl font-normal w-83 tracking-wider | sm:w-109 sm:text-xl'>Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
 
             <button className='w-38 h-12 rounded my-6 mb-2 | text-sxxl font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple | mt-8'>Register</button>
 
@@ -47,11 +49,13 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+        </div>
+
 
         {/*  */}
-        <div className='relative bg-blend-luminosity'>
-          <img className='grayscale bg-blend-luminosity | w-96' src="https://s3-alpha-sig.figma.com/img/2cea/d700/cfbd4eb06b68c33fac2a89295904df2c?Expires=1696204800&Signature=Pl8bxQP7ZWA8IQ~PcHxowSaaCsU8KsCWsjtAdV6WbycHB9CRSS3HmiUrIoLq7x8FSDNA5qhlVqpaF9PjBCB7vHkotMawDRLRihUUfrQSiMjhzG1sXACFmEqCbgbAOnmThDsh05K5hvMNlu0aZjKfhaWi3WigTfEpzQu79zcsA-xggSvAG3k5-pvQEoXQiViO6zISNYUBUgSoT6iO4SJ7jwGKZOA1tL3MGCzbwMyaTEqn8yLde~kSrWX34kogEmUFU9ziDrla9dgaxjRFUFtuDiw2J5NKDjGqV5QjoAQwb~SsNsFDcCq3Jq76s-4WdTGa2vBih1ibhsrAHsdeW0m6xg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
-          <img className='bg-blend-hard-light opacity-60 | absolute -top-4 -right-2' src="https://s3-alpha-sig.figma.com/img/396e/75fa/de110c53101d2c3b8d00dc3a9a731502?Expires=1696204800&Signature=Ky6eZfwSXR-K8ofkhqoUpCsffIuoP6W9hytfsWN1hmPVKG1IRlPD69f8Xq9zvmLC3tSwADxA4iRGDYcvhGpX~md2L2ndUj~F7sJwwiXmykZS96haoFNDyNGtksMtryjvuzr~Val2Vgbq0MybjztkMKoHEhmckVjTg8GilY6nF5GnBagvXUhoYQg8JgdQvKt-Jt8cZZCCFAAVajGpknnX5~W~~hlHHL~610Fy4t5~sIozGBSrGfluPyoZmKOvdIcPKaGkRZLzIqjGyAa6XIkikeackxHDwHirgwga2CqPasKa2xhvJJyi0H~COH8Vxb9~grKAAxpnxPxpSUEWh4QKGA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+        <div className=' bg-blend-luminosity'>
+          <img className='grayscale bg-blend-luminosity | absolute -right-2 w-140 bottom-0' src="https://s3-alpha-sig.figma.com/img/2cea/d700/cfbd4eb06b68c33fac2a89295904df2c?Expires=1696204800&Signature=Pl8bxQP7ZWA8IQ~PcHxowSaaCsU8KsCWsjtAdV6WbycHB9CRSS3HmiUrIoLq7x8FSDNA5qhlVqpaF9PjBCB7vHkotMawDRLRihUUfrQSiMjhzG1sXACFmEqCbgbAOnmThDsh05K5hvMNlu0aZjKfhaWi3WigTfEpzQu79zcsA-xggSvAG3k5-pvQEoXQiViO6zISNYUBUgSoT6iO4SJ7jwGKZOA1tL3MGCzbwMyaTEqn8yLde~kSrWX34kogEmUFU9ziDrla9dgaxjRFUFtuDiw2J5NKDjGqV5QjoAQwb~SsNsFDcCq3Jq76s-4WdTGa2vBih1ibhsrAHsdeW0m6xg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
+          <img className='bg-blend-hard-light opacity-60 | absolute -right-6 bottom-1' src="https://s3-alpha-sig.figma.com/img/396e/75fa/de110c53101d2c3b8d00dc3a9a731502?Expires=1696204800&Signature=Ky6eZfwSXR-K8ofkhqoUpCsffIuoP6W9hytfsWN1hmPVKG1IRlPD69f8Xq9zvmLC3tSwADxA4iRGDYcvhGpX~md2L2ndUj~F7sJwwiXmykZS96haoFNDyNGtksMtryjvuzr~Val2Vgbq0MybjztkMKoHEhmckVjTg8GilY6nF5GnBagvXUhoYQg8JgdQvKt-Jt8cZZCCFAAVajGpknnX5~W~~hlHHL~610Fy4t5~sIozGBSrGfluPyoZmKOvdIcPKaGkRZLzIqjGyAa6XIkikeackxHDwHirgwga2CqPasKa2xhvJJyi0H~COH8Vxb9~grKAAxpnxPxpSUEWh4QKGA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         </div>
       </div>
     </div>

@@ -38,7 +38,7 @@ const Privacy = () => {
         </div>
       </div>
 
-      <div className=' flex flex-col justify-center items-center | sm:h-full sm:self-start sm:-mt-20 sm:-mr-8'>
+      <div className='relative flex flex-col justify-center items-center | sm:h-full sm:self-start sm:-mt-20 sm:-mr-8'>
         <img className='sm:w-106 sm:' src={secure} alt="" />
         <img className='w-140 absolute -bottom-2 | sm:bottom-32' src="https://s3-alpha-sig.figma.com/img/6db9/36c6/c29a7f48697d2a5a69348e7d27a23b89?Expires=1696204800&Signature=bNxstTSEYXbZoBpwY1daRPhKxKT2QWcslEajrqcfM3PkXwQzsldJdVZMdFuDNGD0~OvSu0fMkW~B4w61OFHsHsU-xOBPxk4KGu5yJSoO~sWX8sZnErextViXDadeRA~JiVv14mGC8C3Zbcgd2wrcQ99WF2sO5PWiie3VNrr13n5ih485ZT318I4rgz8VgOXeuJelWcIKmR4K6baFO9SFd5TWgbKYQAvj8cL0BqLpA5u~LZpiaSdbKUE2B1yxZEiMieWWYbrUZWMf1hgZ1AB9nwRVcW2SscfUPWShC4SQOIuc6v05HxSnce9Mk45Ux6mMHhAonaddjBYxs3b5XKyJSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         {/* img */}

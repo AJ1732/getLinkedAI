@@ -62,6 +62,7 @@ export default {
         68: "17rem",
         73: "18.4375rem",
         81: "21.625rem",
+        83: "22.9rem",
         99: "24.375rem",
         103: "27.25rem",
         'idea': "34.5rem",
@@ -69,6 +70,7 @@ export default {
         109: "35.5rem",
         110: "35.5625rem",
         140: "58rem",
+        145: "63rem",
         150: "72.5rem",
       },
       height: {
@@ -77,6 +79,7 @@ export default {
         80: '20rem',
         90: '35rem',
         96: '38rem',
+        120: '48rem',
       },
       maxWidth: {
         smm: "24.375rem",
