@@ -5,7 +5,7 @@ import partnerPurpleLaptop2 from '../files/images/partnerPurpleLaptop2.png'
 
 const PartnersSponsors = () => {
   return (
-    <div className='relative h-fit py-10 pb-24 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10'>
+    <div className='relative h-fit py-10 pb-24 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 sm:mt-10'>
       <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-left-40 sm:-top-60' src={partnerPurpleLaptop} alt="" />
       
       {/* HEADLINE */}
