@@ -33,12 +33,6 @@ const Register = () => {
     setData(newData)
   }
 
-  // console.log(data);
-
-  const submit = (e) => {
-    e.preventDefault();
-    console.log(data);
-  }
 
   async function postData(e) {
     e.preventDefault();
@@ -46,7 +40,6 @@ const Register = () => {
     try {
       let result = await fetch(`${baseUrl}/hackathon/registration`, {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
