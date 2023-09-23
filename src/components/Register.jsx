@@ -69,7 +69,7 @@ const Register = () => {
 
         {/*  */}
         <div className='flex flex-col gap-8 px-4 | sm:w-110 sm:p-14 sm:bg-privacy-div sm:rounded-xl'>
-          <h2>Register</h2>
+          <h2 className='hidden sm:block sm:text-text-purple sm:clashDisplay sm:font-semibold sm:text-txl'>Register</h2>
           <div className='flex flex-col gap-1 sm:gap-2'>
             <div className='relative'>
               <h2 className='text-xs | sm:text-sxxl'>Be part of this movement! <span className='text-text-purple pl-2'>..................................</span></h2>
