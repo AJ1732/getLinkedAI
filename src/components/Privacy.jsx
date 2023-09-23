@@ -1,17 +1,21 @@
 import React from 'react'
 import check from '../files/images/greenChecked.svg'
 import secure from '../files/images/secure.svg'
+import privacyPurple from '../files/images/privacyPurple.png'
+import privacyPurple2 from '../files/images/privacyPurple2.png'
+
 
 const Privacy = () => {
   return (
-    <div className=' h-fit py-16 text-center px-10 | flex flex-col justify-start items-center gap-10 | sm:relative sm:px-0 sm:py-40 sm:flex-row sm:justify-between'>
-      <div className='flex flex-col justify-center items-center gap-8 | sm:text-left sm:items-start sm:gap-16 sm:-m-8'>
+    <div className='relative h-fit py-16 text-center px-10 | flex flex-col justify-start items-center gap-10 | sm:relative sm:px-0 sm:py-40 sm:flex-row sm:justify-between'>
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={privacyPurple} alt="" />
+      <div className='z-10 flex flex-col justify-center items-center gap-8 | sm:text-left sm:items-start sm:gap-16 sm:-m-8'>
         <div className='flex flex-col justify-center items-center gap-5 | sm:items-start sm:gap-8'>
           <div className='flex flex-col justify-center items-center gap-2 | sm:items-start sm:gap-4'>
             <h2 className='w-52 text-xl font-clashDisplay font-bold tracking-wide | sm:text-txl sm:w-99'>Privacy Policy and <span className='text-text-purple | '>Terms</span></h2>
             <p className='text-xs text-gray | sm:text-sxxl'>Last updated on September 12, 2023</p>
           </div>
-          <p className='w-72 text-xs | sm:text-sxxl sm:w-103'>Below are our privacy & policy, which outline a lot of goodies. it’s our aim to always take of our participant</p>
+          <p className='w-72 text-xs | sm:text-sxxl sm:w-103 sm:'>Below are our privacy & policy, which outline a lot of goodies. it’s our aim to always take of our participant</p>
         </div>
 
         <div className='w-73 bg-privacy-div | py-11 px-5 | border border-text-purple rounded-m | sm:w-110 sm:text-left sm:px-16 sm:py-14'>
@@ -42,7 +46,9 @@ const Privacy = () => {
         <img className='sm:w-103 sm:' src={secure} alt="" />
         <img className='w-140 absolute -bottom-2 | sm:bottom-32' src="https://s3-alpha-sig.figma.com/img/6db9/36c6/c29a7f48697d2a5a69348e7d27a23b89?Expires=1696204800&Signature=bNxstTSEYXbZoBpwY1daRPhKxKT2QWcslEajrqcfM3PkXwQzsldJdVZMdFuDNGD0~OvSu0fMkW~B4w61OFHsHsU-xOBPxk4KGu5yJSoO~sWX8sZnErextViXDadeRA~JiVv14mGC8C3Zbcgd2wrcQ99WF2sO5PWiie3VNrr13n5ih485ZT318I4rgz8VgOXeuJelWcIKmR4K6baFO9SFd5TWgbKYQAvj8cL0BqLpA5u~LZpiaSdbKUE2B1yxZEiMieWWYbrUZWMf1hgZ1AB9nwRVcW2SscfUPWShC4SQOIuc6v05HxSnce9Mk45Ux6mMHhAonaddjBYxs3b5XKyJSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
         {/* img */}
-      </div>     
+      </div>   
+      <img className='absolute bottom-96 -left-10 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={privacyPurple2} alt="" />
+
     </div>
   )
 }

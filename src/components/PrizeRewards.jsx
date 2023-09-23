@@ -1,16 +1,20 @@
 import React from 'react'
-import back from '../files/images/prizeBg.png'
+// import back from '../files/images/prizeBg.png'
+import criteriaPurple from '../files/images/criteriaPurple.png'
+import criteriaPurple2 from '../files/images/criteriaPurple2.png'
 
 const PrizeRewards = () => {
   return (
-    <div className='h-fit py-20 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 | sm:gap-56 sm:px-0'>
+    <div className='relative h-fit py-20 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 | sm:gap-56 sm:px-0'>
+      <img className='absolute top-12 -left-10 z-0 opacity-30 bg-blend-hard-light | sm:hidden' src={criteriaPurple} alt="" />
+      
       {/* <img className='z-0 absolute' src={back} alt="" /> */}
-      <div className='flex flex-col justify-center items-center gap-4 tracking-wide | sm:text-left sm:items-start sm:self-end sm:mr-40'>
+      <div className='z-10 flex flex-col justify-center items-center gap-4 tracking-wide | sm:text-left sm:items-start sm:self-end sm:mr-40'>
         <h2 className='w-28 text-xl font-clashDisplay font-bold'>Prizes and <span className='text-text-purple'>Rewards</span></h2>
         <p className='w-64 font-mont  text-xs !leading-5 | sm:w-80'>Highlight of the prizes or rewards for winners and for participants.</p>
       </div>
 
-      <div className='flex flex-col justify-start items-center gap-10 | sm:flex-row sm:relative '>
+      <div className='z-10 flex flex-col justify-start items-center gap-10 | sm:flex-row sm:relative '>
         <img className='w-80 | sm:w-109 sm:absolute sm:-top-40' src="https://s3-alpha-sig.figma.com/img/6d26/0bee/51305b717b893b93f9a9003c68127309?Expires=1696204800&Signature=O71qbHAENksr649e63I7ZDY9xY-YM4hpkm9ZbJhi9IgibjJH8yCVIz9cNoQzs5Ua0WgAm~rQwlCb35jNTp63DjurQnPtAQ6qSr2gwM9u8h08sN8~QMe9-ZFb4FmUagyw5Lq4iDVD3MnrmTDE3ayVt6ZVz7AIprlI-SVQnCiCLr13OgfCEQrHCipwR7GmfA1c3slx2Sy9ewcEGg1L7Kvb3UdTLP5CFn1PewbrDbNT6WItPESojHKHdiKxaf76U74P5pIFmR1LZwVth-HmZt6ttCiUZGi7~SJrPb3NjFoGJflFQO2pUts~yi6D-FllTUXBUVDA3RlTQsqouScUyf4tsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="" />
       
         <div className='relative mt-10 flex justify-center items-center gap-5 | sm:w-1/2 sm:ml-left'>
@@ -54,6 +58,7 @@ const PrizeRewards = () => {
           </div>
         </div>
       </div>
+      <img className='absolute -bottom-20 -right-2 z-0 opacity-30 bg-blend-hard-light | sm:hidden' src={criteriaPurple2} alt="" />
     </div>
   )
 }
