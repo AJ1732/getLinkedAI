@@ -38,7 +38,7 @@ const HomePage = () => {
 
               <p className='text-ssxl font-normal w-83 tracking-wider | sm:w-109 sm:text-xl'>Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
 
-              <Link to={`register`} className='w-38 h-12 py-3 rounded my-6 mb-2 | text-sxxl font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple | mt-8'>Register</Link>
+              <Link to={`register`} className='w-38 h-12 py-3 px-11 rounded my-6 mb-2 | text-sxxl font-normal tracking-wide | bg-gradient-to-l from-lg-from-purple via-text-purple to-lg-to-purple | mt-8'>Register</Link>
 
               <div className='text-unica font-normal | flex gap-2 | sm:mt-16 sm:gap-6'>
                 <span className='flex items-end'>

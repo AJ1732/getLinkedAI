@@ -6,6 +6,8 @@ import insta from '../files/images/instagram.svg'
 import x from '../files/images/x.svg'
 import facebook from '../files/images/facebook.svg'
 import linkedin from '../files/images/linkedin.svg'
+import contactPurple from '../files/images/contactPurple.png'
+import contactPurpleLaptop from '../files/images/contactPurpleLaptop.png'
 
 const Contact = () => {
   const baseUrl = "https://backend.getlinked.ai"
@@ -47,11 +49,14 @@ const Contact = () => {
 
 
   return (
-    <div className=' bg-bg-two-purple h-fit py-12 px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 | sm:flex-row-reverse sm:items-start sm:justify-between sm:px-4 '>
-      <Link to={`../`} className='self-start sm:hidden'>
+    <div className='z-30  relative bg-bg-two-purple h-fit py-12 px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 | sm:flex-row-reverse sm:items-start sm:justify-between sm:px-4 '>
+      <img className='absolute top-2 -left-0 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={contactPurple} alt="" />
+      <img className='absolute top-2 -left-0 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-left-28 sm:-top-56' src={contactPurpleLaptop} alt="" />
+      
+      <Link to={`../`} className='z-30 self-start sm:hidden'>
         <img src={back} alt="" />
       </Link>
-      <div className='flex flex-col gap-6 justify-start items-center | sm:bg-privacy-div sm:w-110 sm:p-20 sm:rounded-xl sm:items-start sm:gap-8'>
+      <div className='z-30 flex flex-col gap-6 justify-start items-center | sm:bg-privacy-div sm:w-110 sm:p-20 sm:rounded-xl sm:items-start sm:gap-8'>
         <div className='text-xl text-text-purple font-semibold font-clashDisplay self-start'>
           <h2>Questions or need assistance?</h2>
           <h2 className='sm:pt-2'>Let us know about it</h2>
@@ -96,7 +101,7 @@ const Contact = () => {
 
       </div>
 
-      <div className='sm:flex sm:flex-col sm:gap-5'>
+      <div className='z-30 sm:flex sm:flex-col sm:gap-5'>
         <div className='hidden | sm:block sm:flex sm:flex-col sm:gap-5 sm:mt-20 sm:font-medium'>
           <h2 className='font-clashDisplay text-text-purple text-txl font-semibold'>Get in touch</h2>
 
@@ -129,6 +134,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }

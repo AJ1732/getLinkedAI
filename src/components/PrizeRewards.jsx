@@ -2,13 +2,15 @@ import React from 'react'
 // import back from '../files/images/prizeBg.png'
 import criteriaPurple from '../files/images/criteriaPurple.png'
 import criteriaPurple2 from '../files/images/criteriaPurple2.png'
+import criteriaPurpleLaptop from '../files/images/criteriaPurpleLaptop.png'
+import criteriaPurpleLaptop2 from '../files/images/criteriaPurpleLaptop2.png'
 
 const PrizeRewards = () => {
   return (
     <div className='relative h-fit py-20 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10 | sm:gap-56 sm:px-0'>
       <img className='absolute top-12 -left-10 z-0 opacity-30 bg-blend-hard-light | sm:hidden' src={criteriaPurple} alt="" />
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-left-40 sm:-top-40' src={criteriaPurpleLaptop} alt="" />
       
-      {/* <img className='z-0 absolute' src={back} alt="" /> */}
       <div className='z-10 flex flex-col justify-center items-center gap-4 tracking-wide | sm:text-left sm:items-start sm:self-end sm:mr-40'>
         <h2 className='w-28 text-xl font-clashDisplay font-bold'>Prizes and <span className='text-text-purple'>Rewards</span></h2>
         <p className='w-64 font-mont  text-xs !leading-5 | sm:w-80'>Highlight of the prizes or rewards for winners and for participants.</p>
@@ -59,6 +61,8 @@ const PrizeRewards = () => {
         </div>
       </div>
       <img className='absolute -bottom-20 -right-2 z-0 opacity-30 bg-blend-hard-light | sm:hidden' src={criteriaPurple2} alt="" />
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-right-40 sm:top-56' src={criteriaPurpleLaptop2} alt="" />
+
     </div>
   )
 }

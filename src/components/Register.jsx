@@ -1,21 +1,25 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
+import registerPurple from '../files/images/registerPurple.png'
+import registerPurpleLaptop from '../files/images/registerPurpleLaptop.png'
+
 
 const Register = () => {
   const baseUrl = "https://backend.getlinked.ai"
   
   // To get category list
   const [categories, setCategories] = useState([])
-  async function getDefaultPhotos() {
+  async function getCategories() {
     const data = await fetch(`${baseUrl}/hackathon/categories-list`)
     const dataObj = await data.json()
     setCategories(dataObj)
   }
 
   useEffect(() => {
-    getDefaultPhotos()
+    getCategories()
   }, []);
 
+  console.log(categories);
   // To post registration form to api
   const [data, setData] = useState({
     "email":"",
@@ -54,8 +58,11 @@ const Register = () => {
   }
 
   return (
-    <div className='bg-bg-two-purple h-fit py-8 px-10 border-b border-divider | flex flex-col justify-start items-center sm:py-14 sm:px-0'>
-      <div className='flex flex-col sm:flex-row sm:justify-between'>
+    <div className='z-30 bg-bg-two-purple h-fit py-8 px-10 border-b border-divider | flex flex-col justify-start items-center sm:py-14 sm:px-0'>
+      <img className='absolute top-28 left-0 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={registerPurple} alt="" />
+      <img className='absolute top-28 left-0 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:top-8' src={registerPurpleLaptop} alt="" />
+      
+      <div className='z-30 flex flex-col sm:flex-row sm:justify-between'>
         <div className='sm:w-3/5 sm:-m-36 sm:mt-2 '>
           <img src="https://www.figma.com/file/H58055Mwc3upxBcouePszn/image/a70fd34066fca8d9215c65352fc6e3a1082aa32c" alt="" />
         </div>

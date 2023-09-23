@@ -31,7 +31,7 @@ export default function Example() {
     <div className=''>
     
     
-    <Disclosure as="nav" className="border-b border-divider relative sm:pt-10 sm:pb-4">
+    <Disclosure as="nav" className="border-b border-dividerz relative sm:pt-10 sm:pb-4  z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -40,7 +40,7 @@ export default function Example() {
               {
                 open?
                 '':
-                <Link to={`.`} className='font-clashDisplay absolute left-12 font-sxl font-bold | sm:text-4xl'>get<span className='text-text-purple'>linked</span></Link>
+                <Link to={`.`} className='font-clashDisplay absolute left-12 font-sxl font-bold | sm:z-50 sm:text-4xl'>get<span className='text-text-purple'>linked</span></Link>
               }
 
               <div className="relative flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
@@ -81,7 +81,7 @@ export default function Example() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden w-full h-screen flex flex-col absolute bg-bg-purple z-10">
+          <Disclosure.Panel className="sm:hidden w-full h-screen flex flex-col absolute bg-bg-purple z-50">
             <div className="space-y-1 px-12 pb-3 pt-2">
               {navigation.map((item) => (
                 <HashLink

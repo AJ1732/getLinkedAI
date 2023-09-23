@@ -3,6 +3,7 @@ import check from '../files/images/greenChecked.svg'
 import secure from '../files/images/secure.svg'
 import privacyPurple from '../files/images/privacyPurple.png'
 import privacyPurple2 from '../files/images/privacyPurple2.png'
+import privacyPurpleLaptop from '../files/images/privacyPurpleLaptop.png'
 
 
 const Privacy = () => {
@@ -48,7 +49,7 @@ const Privacy = () => {
         {/* img */}
       </div>   
       <img className='absolute bottom-96 -left-10 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={privacyPurple2} alt="" />
-
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-left-40 sm:top-80' src={privacyPurpleLaptop} alt="" />
     </div>
   )
 }

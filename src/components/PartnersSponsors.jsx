@@ -6,7 +6,7 @@ import partnerPurpleLaptop2 from '../files/images/partnerPurpleLaptop2.png'
 const PartnersSponsors = () => {
   return (
     <div className='relative h-fit py-10 pb-24 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10'>
-      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={partnerPurpleLaptop} alt="" />
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-left-40 sm:-top-60' src={partnerPurpleLaptop} alt="" />
       
       {/* HEADLINE */}
       <div className='flex flex-col justify-center items-center gap-2 tracking-wide | sm:gap-6'>
@@ -57,6 +57,7 @@ const PartnersSponsors = () => {
 
         </div>
       </div>
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | hidden sm:block sm:-right-40 sm:top-64' src={partnerPurpleLaptop2} alt="" />
     </div>
   )
 }
