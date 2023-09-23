@@ -1,8 +1,13 @@
 import React from 'react'
+import partnerPurpleLaptop from '../files/images/partnerPurpleLaptop.png'
+import partnerPurpleLaptop2 from '../files/images/partnerPurpleLaptop2.png'
+
 
 const PartnersSponsors = () => {
   return (
-    <div className='h-fit py-10 pb-24 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10'>
+    <div className='relative h-fit py-10 pb-24 text-center px-10 border-b border-divider | flex flex-col justify-start items-center gap-10'>
+      <img className='absolute -top-40 -right-10 z-0 opacity-40 bg-blend-hard-light | sm:hidden' src={partnerPurpleLaptop} alt="" />
+      
       {/* HEADLINE */}
       <div className='flex flex-col justify-center items-center gap-2 tracking-wide | sm:gap-6'>
         <h2 className='font-clashDisplay font-bold text-xl | sm:text-txl'>Partners and Sponsors</h2>
