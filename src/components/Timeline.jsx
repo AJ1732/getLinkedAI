@@ -18,12 +18,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left flex flex-col gap-2 | sm:absolute sm:-left-80 sm:top-24 sm:w-screen sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left flex flex-col gap-2 | sm:absolute sm:-left-16 sm:top-24 sm:w-full sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-right sm:justify-between sm:w-103'>
               <h2 className='font-bold text-text-purple | sm:text-2xl'>Hackathon Announcement</h2>
               <p className='sm:text-sxxl sm:leading-6'>The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register</p>
             </div>
-            <p className='font-bold text-text-purple | sm:text-2xl'>November 18, 2023</p>
+            <p className='font-bold text-text-purple | sm:pb-8 sm:w-72 sm:text-2xl'>November 18, 2023</p>
           </div>
         </div>
 
@@ -36,12 +36,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left flex flex-col gap-4 | sm:absolute sm:-left-32 sm:top-24 sm:w-screen sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left flex flex-col gap-4 | sm:absolute sm:left-16 sm:top-24 sm:w-full sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-left sm:justify-between sm:w-103'>
               <h2 className='font-bold text-text-purple | sm:text-2xl sm:pt-5'>Teams Registration begins</h2>
               <p className='sm:text-sxxl sm:leading-6'>Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register</p>
             </div>
-            <p className='font-bold text-text-purple | sm:text-2xl sm:pb-6'>November 18, 2023</p>
+            <p className='font-bold text-text-purple | sm:text-2xl sm:w-72 sm:pb-14'>November 18, 2023</p>
           </div>
         </div>
 
@@ -54,12 +54,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left flex flex-col gap-8 | sm:absolute sm:-left-80 sm:top-28 sm:w-screen sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left flex flex-col gap-8 | sm:absolute sm:-left-20 sm:top-28 sm:w-full sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-right sm:justify-between sm:w-103'>
               <h2 className='font-bold text-text-purple | sm:text-2xl'>Teams Registration ends</h2>
               <p className='sm:text-sxxl sm:leading-6 sm:w-99 sm:self-end'>Interested Participants are no longer Allowed to register</p>
             </div>
-            <p className='font-bold text-text-purple sm:pb-5 | sm:text-2xl'>November 18, 2023</p>
+            <p className='font-bold text-text-purple sm:pb-5 | sm:w-72 sm:text-yxl'>November 18, 2023</p>
           </div>
         </div>
 
@@ -72,12 +72,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left flex flex-col gap-2 | sm:absolute sm:-left-32 sm:top-16 sm:w-screen sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left flex flex-col gap-2 | sm:absolute sm:left-10 sm:top-16 sm:w-full sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-left sm:justify-between sm:w-103'>
               <h2 className='font-bold text-text-purple | sm:text-2xl sm:pt-10'>Announcement the accepted teams and ideas</h2>
               <p className='sm:text-sxxl sm:leading-6'>All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced</p>
             </div>
-            <p className='font-bold text-text-purple | sm:text-2xl sm:pb-11'>November 18, 2023</p>
+            <p className='font-bold text-text-purple | sm:text-2xl sm:w-80 sm:pb-11'>November 18, 2023</p>
           </div>
         </div>
 
@@ -90,12 +90,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left h-full flex flex-col justify-between gap-2 | sm:absolute sm:-left-80 sm:top-10 sm:w-screen sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left h-full flex flex-col justify-between gap-2 | sm:absolute sm:-left-12 sm:top-10 sm:w-full sm:flex-row sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-right sm:justify-between sm:w-103'>
               <h2 className='font-bold text-text-purple | sm:text-2xl'>Getlinked Hackathon 1.0 Offically Begins</h2>
               <p className='sm:text-sxxl sm:leading-6'>Accepted teams can now proceed to build their ground breaking skill driven solutions</p>
             </div>
-            <p className='font-bold text-text-purple | sm:text-2xl sm:pb-10'>November 18, 2023</p>
+            <p className='font-bold text-text-purple | sm:text-2xl sm:w-80 sm:pb-10'>November 18, 2023</p>
           </div>
         </div>
 
@@ -108,12 +108,12 @@ const Timeline = () => {
             </span>
           </div>
 
-          <div className='text-left flex flex-col gap-2 | sm:absolute sm:-left-32 sm:top-24 sm:w-screen sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
+          <div className='text-left flex flex-col gap-2 | sm:absolute sm:left-16 sm:top-24 sm:w-full sm:flex-row-reverse sm:gap-56 sm:justify-center sm:items-end'>
             <div className='flex flex-col gap-2 | sm:text-left sm:justify-between sm:w-103 '>
               <h2 className='font-bold text-text-purple | sm:text-2xl'>Demo Day</h2>
               <p className='sm:text-sxxl sm:leading-6'>Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day</p>
             </div>
-            <p className='font-bold text-text-purple | sm:text-2xl sm:pb-6'>November 18, 2023</p>
+            <p className='font-bold text-text-purple | sm:text-2xl sm:w-72 sm:pb-6'>November 18, 2023</p>
           </div>
         </div>
 

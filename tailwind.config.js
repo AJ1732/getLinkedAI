@@ -102,6 +102,7 @@ export default {
         sxxl: "0.875rem",
         sxl: "0.9375rem",
         txl: "2rem",
+        yxl: "1.4rem",
         '2.5xl': "2.5rem",
         '5.5xl': "5rem",
       },
